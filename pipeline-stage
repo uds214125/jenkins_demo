@@ -6,9 +6,9 @@ pipeline {
                     echo 'Hello, Duniya.'
             }
         }
-	    stage('two'){                   
+	stage('two'){                   
             steps {
-                input('Do you want to know, Who is Duniya ?')
+                echo 'Do you want to know, How the world is running now :(')
             }	
         }
 }
