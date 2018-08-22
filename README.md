@@ -14,8 +14,9 @@
    8. Select **Pipeline -> Definition -> Pipeline script from SCM** 
    9. Select Your SCM (Source Controll Managment) (e.g., Git)
    10. Enter your **Repositories info** 
-      e.g., URL : https://github.com/uds214125/jenkins_demo.git
-            Add creds : github username     and github password
+      e.g., 
+           -  URL : https://github.com/uds214125/jenkins_demo.git
+           -  Add creds : github username  and github password
    11. Enter your script file name **Script Path** 
       e.g., pipeline-stage
    12. Apply -> Save
