@@ -5,12 +5,9 @@ pipeline {
             steps {
                     echo 'Hello, Duniya.'
             }
-        }
-
-
-        stage('two'){                   
             steps {
-                input('Do you want to know, Who is Duniya ?')
+                sh 'node --version'
             }	
         }
+    }
 }
