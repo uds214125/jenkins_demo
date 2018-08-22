@@ -11,4 +11,5 @@ pipeline {
                 echo 'Do you want to know, How the world is running now ?')
             }	
         }
+    }
 }
