@@ -23,3 +23,10 @@
    13. Select **Build Now** option from left side menu
    
    
+   ### How to do scripted pipeline in jenkins instance shell ?
+   
+   0. Follow above step from 1 to 7 
+   8. Select **Pipeline -> Definition -> Pipeline script ** 
+   9. Write your scirpt or copy and paste code from scripted_pipeline file.
+   10. Apply -> Save
+   11. Select **Build Now** option from left side menu.
