@@ -1,0 +1,13 @@
+node {
+    for(int s=0; s<2; s++){
+        stage 'Stage #'+ s
+        echo 'Hello scripted pipeline'
+        
+        if(s==0){
+           sh 'node --version'
+        }else if(s == 1){
+            git 'https://github.com/uds214125/jenkins_demo.git'
+            echo 'Git clone done.'
+        }
+    }
+}
